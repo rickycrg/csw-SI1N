@@ -1,0 +1,19 @@
+body {
+    background-image: linear-gradient(90deg, rgb(58, 58, 58), rgb(182, 182, 182))
+}
+
+div1{
+    background-color:rgb(211, 211, 211);
+    position:absolute;
+    border-radius:2%;
+    top:30%;
+    left:30%;
+}
+
+h1{
+    background-color:rgb(211, 211, 211);
+    border-radius:3%;
+    position:absolute;
+    top:15%;
+    left:45%;
+}
