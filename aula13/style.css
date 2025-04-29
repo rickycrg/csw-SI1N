@@ -1,0 +1,91 @@
+#box1 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(218, 218, 218);
+    border-width: 7px;
+    border-style: solid;
+    border-color: red;
+    outline-width: 7px;
+    outline-style: solid;
+    outline-color: blue;
+    margin: 30px;
+    padding: 14px;
+    position: absolute;
+    top: 5%
+}
+
+#box2 {
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    border-width: 7px;
+    border-style: solid;
+    border-color: blue;
+    outline-width: 7px;
+    outline-style: solid;
+    outline-color: red;
+    margin: 30px;
+    padding: 14px;
+    position: absolute;
+    left: 20%;
+    top: 5%
+}
+
+#box3 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(218, 218, 218);
+    border-width: 7px;
+    border-style: solid;
+    border-color: red;
+    outline-width: 7px;
+    outline-style: solid;
+    outline-color: blue;
+    margin: 30px;
+    padding: 14px;
+    position: absolute;
+    top: 5%;
+    left: 40%
+}
+
+divsimples {
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightcyan;
+    position: absolute;
+    top: 20%
+}
+
+divtratada {
+    display:inline-block;
+    background-color:lightcyan;
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    text-align:center;
+    position:absolute;
+    top:30%
+}
+
+divtratada:hover {
+    display:inline-block;
+    background-color:rgb(255, 88, 88);
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    text-align:center;
+    position:absolute;
+    top:30%
+}
+
+divtratada2 {
+    display:inline-block;
+    background-color:lightcyan;
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    text-align:center;
+    position:absolute;
+    top:30%;
+    left:25%
+}
