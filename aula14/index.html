@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula_13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulário</h1><br><br>
+    <form action="mailto:aluno@uvv.com.br" method="post">
+        <label for="Nome">Nome: </label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="senha">Senha: </label>
+        <input type="password" id="senha" name="senha">
+        <br><br><br><br>
+        <p>Deixe um comentário: </p>
+        <textarea name="comentário" cols="55" rows="10" placeholder="comentário" readonly></textarea><br><br>
+        <label for=""></label><br>
+        <input type="checkbox" name="opção1" value="opção1">opção 1
+        <br>
+        <input type="checkbox" name="opção2" value="opção2">opção 2
+        <br>
+        <input type="checkbox" name="opção3" value="opção3">opção 3
+        <br>
+        <br>
+        <br>
+        <label for=""></label>
+        <input type="radio" name="opção1" value="opção1"> opção 1
+        <br>
+        <input type="radio" name="opção2" value="opção2"> opção 2
+        <br>
+        <input type="radio" name="opção3" value="opção3"> opção 3
+        <br><br><br>
+        <label for="">Esporte favorio: </label>
+        <select name="Esporte" size="1">
+            <option value="">selecione</option>
+            <option value="Futebol">Futebol</option>
+            <option value="Basquete">Basquete</option>
+            <option value="vôlei">vôlei</option>
+            <option value="Tênis">Tênis</option>
+            <option value="Handebol">Handebol</option>
+        </select>
+        <br><br>
+        <label for="idade">Idade</label>
+        <input type="int" id="idade" name="idade" size="2">
+        <br><br>
+        <label for="email_pattern">Email (pattern): </label>
+        <input type="email" name="email" pattern="^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+        <br>
+        <br>
+        <label for="cor">Escolha uma cor: </label>
+        <input type="color">
+        <br>
+        <br>
+        <label for="">Data de nascimento: </label>
+        <input type="date" required>
+        <input type="time" name="time" id="time">
+        <br><br>
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
+    </form>
+</body>
+
+</html>
